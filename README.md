@@ -35,5 +35,7 @@ To run the script you will need Matlab (R2017b).
 
 ## References:
 [1] https://www.ages.at/en/wissen-aktuell/publikationen/ epidemiologische-parameter-des-covid19-ausbruchs-oesterreich-2020/, accessed: 2021-08-04.
+
 [2] Prem, K., Cook, A., and Jit, M.. Projecting social contact matrices in 152 countries using contact surveys and demographic data. PLOS Computational Biology, 13(9):e1005697, 10.1371/journal.pcbi.1005697 (2017)
+
 [3] Paul, S., Lorin, E., Estimation of COVID-19 recovery and decease periods in Canada using delay model. Scientific Reports. 2021, 11, 23763, https://doi.org/10.1038/s41598-021-02982-w
