@@ -28,10 +28,10 @@ To run the script you will need Matlab (R2017b).
   The population size per district was available from the national statistics office and linked by the unique district ID.
 - Input variable timeseries
 
- The eleven input variable timeseries for metereological factors, regional measures and mobility are available in the Zenodo repository.
-- &beta weights
+  The eleven input variable timeseries for metereological factors, regional measures and mobility are available in the Zenodo repository.
+- beta weights
 
-  To make the analysis more robust with respect to potential variations in the duration of infectiousness, we performed simulations for a range of &beta and calculated a weighted average of the effect sizes employing weights from Paul et al. [3]. The weights follow a gamma distribution with a maximum at 19d.
+  To make the analysis more robust with respect to potential variations in the duration of infectiousness, we performed simulations for a range of beta and calculated a weighted average of the effect sizes employing weights from Paul et al. [3]. The weights follow a gamma distribution with a maximum at 19d.
 
 ## References:
 [1] https://www.ages.at/en/wissen-aktuell/publikationen/ epidemiologische-parameter-des-covid19-ausbruchs-oesterreich-2020/, accessed: 2021-08-04.
