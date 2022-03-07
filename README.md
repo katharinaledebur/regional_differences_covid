@@ -5,7 +5,7 @@ Author: Katharina Ledebur, Complexity Science Hub Vienna [ledebur@csh.ac.at](led
 
 A data-driven modelling approach based on an age-structured model that compares 116 Austrian regions to a suitably chosen control set of regions to explain variations in local transmission rates through a combination of meteorological factors, non-pharamaceutical interventions and mobility. 
 
-Reference: 
+Reference: Data available under [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6120655.svg)](https://doi.org/10.5281/zenodo.6120655)
 
 ## Contents
 The repository contains two folders: ```Code``` contains the necessary script to run the simulation and arrive at the results and ```Figures``` containing the Figures used in the paper.
@@ -13,6 +13,7 @@ In ```Code``` you will find the Matlab scripts necessary to run to obtain the re
 ​
 The ```Figures``` folder does not contain Figure 1 since it is a visual abstract.
 ​
+The ```Data``` contains additional data necessary for running the code (case numbers, population, contact matrices, beta weights).
 ## Requirements
 To run the script you will need Matlab (R2017b).
 
@@ -34,7 +35,7 @@ To run the script you will need Matlab (R2017b).
   To make the analysis more robust with respect to potential variations in the duration of infectiousness, we performed simulations for a range of beta and calculated a weighted average of the effect sizes employing weights from Paul et al. [3]. The weights follow a gamma distribution with a maximum at 19d.
 
 ## References:
-[1] https://www.ages.at/en/wissen-aktuell/publikationen/ epidemiologische-parameter-des-covid19-ausbruchs-oesterreich-2020/, accessed: 2021-08-04.
+[1] https://www.ages.at/en/wissen-aktuell/publikationen/epidemiologische-parameter-des-covid19-ausbruchs-oesterreich-2020/ , accessed: 2021-08-04.
 
 [2] Prem, K., Cook, A., and Jit, M.. Projecting social contact matrices in 152 countries using contact surveys and demographic data. PLOS Computational Biology, 13(9):e1005697, 10.1371/journal.pcbi.1005697 (2017)
 
