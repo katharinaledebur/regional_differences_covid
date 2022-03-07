@@ -34,7 +34,7 @@ To run the script you will need Matlab (R2017b).
   To make the analysis more robust with respect to potential variations in the duration of infectiousness, we performed simulations for a range of beta and calculated a weighted average of the effect sizes employing weights from Paul et al. [3]. The weights follow a gamma distribution with a maximum at 19d.
 
 ## References:
-[1] https://www.ages.at/en/wissen-aktuell/publikationen/ epidemiologische-parameter-des-covid19-ausbruchs-oesterreich-2020/, accessed: 2021-08-04.
+[1] https://www.ages.at/en/wissen-aktuell/publikationen/epidemiologische-parameter-des-covid19-ausbruchs-oesterreich-2020/ , accessed: 2021-08-04.
 
 [2] Prem, K., Cook, A., and Jit, M.. Projecting social contact matrices in 152 countries using contact surveys and demographic data. PLOS Computational Biology, 13(9):e1005697, 10.1371/journal.pcbi.1005697 (2017)
 
