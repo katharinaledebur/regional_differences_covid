@@ -242,7 +242,7 @@ for i=1:numel(uID)
     end
 end
 
-stds(5+numel(mlab)+2) = std(reshape(log(rg(:,t_cal)),1,[])); % not completely correct - save correct std or hardcode or save data one step before
+stds(5+numel(mlab)+2) = std(reshape(log(rg(:,t_cal)),1,[])); 
 
 %% MAIN MODEL + RESULT
 % beta weights according to gamma distribution from: 
