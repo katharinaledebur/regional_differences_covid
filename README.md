@@ -5,7 +5,7 @@ Author: Katharina Ledebur, Complexity Science Hub Vienna [ledebur@csh.ac.at](led
 
 A data-driven modelling approach based on an age-structured model that compares 116 Austrian regions to a suitably chosen control set of regions to explain variations in local transmission rates through a combination of meteorological factors, non-pharamaceutical interventions and mobility. 
 
-Reference: 
+Reference: Data available under 10.5281/zenodo.6120655
 
 ## Contents
 The repository contains two folders: ```Code``` contains the necessary script to run the simulation and arrive at the results and ```Figures``` containing the Figures used in the paper.
@@ -13,6 +13,7 @@ In ```Code``` you will find the Matlab scripts necessary to run to obtain the re
 ​
 The ```Figures``` folder does not contain Figure 1 since it is a visual abstract.
 ​
+The ```Data``` contains additional data necessary for running the code (case numbers, population, contact matrices, beta weights).
 ## Requirements
 To run the script you will need Matlab (R2017b).
 
