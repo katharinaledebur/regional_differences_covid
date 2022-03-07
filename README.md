@@ -16,11 +16,12 @@ The ```Figures``` folder does not contain Figure 1 since it is a visual abstract
 The ```Data``` contains additional data necessary for running the code (case numbers, population, contact matrices, beta weights).
 ## Requirements
 To run the script you will need Matlab (R2017b).
+You also need data on the cases per day, district and age group. Our study period ranges from July 1 2020 to May 15 2021. The daily confirmed Covid-19 cases of 116 districts in Austria were collected through the official Austrian 71 COVID-19 disease reporting system (EMS) [1]. A unique identification number was assigned to each positive Covid-19 test. People can be tested positive multiple times. We calculate daily numbers of positive tests per district and age group. In the model we employ the cumulative cases everyday for each one of the four age groups and the 116 districts. 
+
+Additionally you will need the matalb function Violin.m from https://github.com/bastibe/Violinplot-Matlab.
 
 ### Data
-- Cases
-
-  Our study period ranges from July 1 2020 to May 15 2021. The daily confirmed Covid-19 cases of 116 districts in Austria were collected through the official Austrian 71 COVID-19 disease reporting system (EMS) [1]. A unique identification number was assigned to each positive Covid-19 test. People can be tested positive multiple times. We calculate daily numbers of positive tests per district and age group. In the model we employ the cumulative cases everyday for each one of the four age groups and the 116 districts. 
+  
 - Contact matrices
 
   To calculate the social mixing matrix entry for one of the four new age groups, we build the population-weighted sum over the corresponding social mixing matrix entries provided by Prem et al. (2017) [2]. The social mixing matrices for each federal state (used for the control sets) are again given by thepopulation-weighted sum over the individual districts.  
